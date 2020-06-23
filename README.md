@@ -1,1 +1,1 @@
-# stepic_project
+# stepik_project
