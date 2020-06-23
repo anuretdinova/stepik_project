@@ -1,9 +1,9 @@
 import pytest
 import time
 import random
-from .pages.basket_page import BasketPage
-from .pages.login_page import LoginPage
-from .pages.product_page import ProductPage
+from pages.basket_page import BasketPage
+from pages.login_page import LoginPage
+from pages.product_page import ProductPage
 
 @pytest.mark.need_review
 def test_guest_can_add_product_to_basket(browser):
