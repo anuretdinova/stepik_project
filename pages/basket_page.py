@@ -13,4 +13,3 @@ class BasketPage(BasePage):
         assert self.is_element_present(*BasketPageLocators.BASKET_MESSAGE)
 
         assert self.is_element_present(*BasketPageLocators.BASKET_MESSAGE)
-
