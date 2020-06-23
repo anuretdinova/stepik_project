@@ -1,7 +1,7 @@
 import pytest
-from pages.basket_page import BasketPage
-from pages.login_page import LoginPage
-from pages.main_page import MainPage
+from pages.basket_page import BasketPage   # если не запускается добавить точку перед "pages.basket_page import BasketPage"  (разница пакетов)
+from pages.login_page import LoginPage  # если не запускается добавить точку перед "pages.login_page import LoginPage"  (разница пакетов)
+from pages.main_page import MainPage       # если не запускается добавить точку перед "pages.main_page import MainPage"  (разница пакетов)
 
 
 @pytest.mark.login_guest
