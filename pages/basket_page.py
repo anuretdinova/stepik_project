@@ -1,5 +1,5 @@
-from stepic_project.pages.base_page import BasePage
-from stepic_project.pages.locators import BasketPageLocators
+from .base_page import BasePage
+from .locators import BasketPageLocators
 
 
 class BasketPage(BasePage): 
